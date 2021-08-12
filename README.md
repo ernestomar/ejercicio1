@@ -17,11 +17,11 @@
         "order": ["static-field", "instance-field", "static-method", "instance-method"]
       }
     ],
-    "no-arg": true,
-    "no-bitwise": true,
-    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
-    "no-construct": true,
-    "no-debugger": true,
+    "no-arg": false,
+    "no-bitwise": false,
+    "no-console": [false, "debug", "info", "time", "timeEnd", "trace"],
+    "no-construct": false,
+    "no-debugger": false,
     "no-duplicate-super": true,
     "no-empty": false,
     "no-empty-interface": true,
