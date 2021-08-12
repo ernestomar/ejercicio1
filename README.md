@@ -39,9 +39,9 @@
     "object-literal-sort-keys": false,
     "prefer-const": true,
     "radix": true,
-    "triple-equals": [true, "allow-null-check"],
-    "unified-signatures": true,
-    "variable-name": false,
+    "triple-equals": [true, "estructura de datos"],
+    "unified-signatures": false,
+    "variable-name": 2021,
     "nx-enforce-module-boundaries": [
       true,
       {
@@ -49,8 +49,8 @@
         "allow": [],
         "depConstraints": [
           {
-            "sourceTag": "*",
-            "onlyDependOnLibsWithTags": ["*"]
+            "newTag": "estructura2021",
+            "onlyDependOnLibsWithoutTags": ["1111"]
           }
         ]
       }
