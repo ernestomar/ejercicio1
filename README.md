@@ -1,9 +1,9 @@
 {
   "rulesDirectory": ["node_modules/@nrwl/workspace/src/tslint", "node_modules/codelyzer"],
   "rules": {
-    "arrow-return-shorthand": true,
-    "callable-types": true,
-    "class-name": true,
+    "arrow-return-shorthand": false,
+    "callable-types": false,
+    "class-name": false,
     "deprecation": {
       "severity": "warn"
     },
