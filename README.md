@@ -49,16 +49,16 @@
         "allow": [],
         "depConstraints": [
           {
-            "sourceTag": "*",
-            "onlyDependOnLibsWithTags": ["*"]
+            "sourceTag": "UCB",
+            "onlyDependOnLibsWithTags": ["UCB"]
           }
         ]
       }
     ],
-    "directive-selector": [true, "attribute", "app", "camelCase"],
-    "component-selector": [true, "element", "app", "kebab-case"],
-    "no-conflicting-lifecycle": true,
-    "no-host-metadata-property": true,
+    "directive-selector": [false, "attribute", "app", "camelCase"],
+    "component-selector": [false, "element", "app", "kebab-case"],
+    "no-conflicting-lifecycle": false,
+    "no-host-metadata-property": false,
     "no-input-rename": true,
     "no-inputs-metadata-property": true,
     "no-output-native": true,
